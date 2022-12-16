@@ -1,0 +1,5 @@
+/Users/ellinakorzova/Desktop/ДЗ по С#/ДЗ-7/obj/Debug/net7.0/ДЗ-7.csproj.AssemblyReference.cache
+/Users/ellinakorzova/Desktop/ДЗ по С#/ДЗ-7/obj/Debug/net7.0/ДЗ-7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ellinakorzova/Desktop/ДЗ по С#/ДЗ-7/obj/Debug/net7.0/ДЗ-7.AssemblyInfoInputs.cache
+/Users/ellinakorzova/Desktop/ДЗ по С#/ДЗ-7/obj/Debug/net7.0/ДЗ-7.AssemblyInfo.cs
+/Users/ellinakorzova/Desktop/ДЗ по С#/ДЗ-7/obj/Debug/net7.0/ДЗ-7.csproj.CoreCompileInputs.cache

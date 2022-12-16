@@ -36,19 +36,24 @@ int[,] array = InitArray(m,n);
 PrintArray(array);
 Console.WriteLine();
 
-int[] sum = new int[n];
-void SearchArithmetic(int[,] array){
 
-for (int i = 0; i < array.GetLength(0); i++)
+void SearchArithmetic(int[,] array){
+int[] sum = new int[array.GetLength(0)];
+int l = 0;
+for (int j = 0; j < array.GetLength(0); j++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int i = 0; i < array.GetLength(1); i++)
         {
-            sum [i] += array[j,i];
+            sum[j] += array[i,j];
         }
     }
-foreach (double elem in sum)
-            {
-                Console.Write($"{elem/m} "); 
-            }
+    int m = 0;
+    while (l <= array.GetLength(0)){
+        double res = Convert.ToDouble(sum[m])/Convert.ToDouble(n);
+        Console.WriteLine($"Среднее арифметическое столбца {l + 1}: {res} ");
+        l ++;
+        m ++;
+    }
 }
+
 SearchArithmetic(array);
